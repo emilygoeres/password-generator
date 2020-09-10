@@ -29,13 +29,15 @@ function generatePassword() {
     var tenure = prompt("How many characters would you like your password? Pick a number between 8-120");
     if (tenure < 8 || tenure > 120) {
         alert("Invalid Input")
+        return "Invalid Input"
     } else {
-        var lowerCase = confirm("How many lowercase letters would you like?");
-        var upperCase = confirm("How many Uppercase letters would you like?");
-        var numbers = confirm("How many numbers would you like?");
-        var specialCharacters = confirm("How many special characters would you like?");
+        var lowerCase = confirm("Would you like lowercase letters in your password?");
+        var upperCase = confirm("Would you like Uppercase letters in your password?");
+        var numbers = confirm("Would you like numbers in your password?");
+        var specialCharacters = confirm("Would you like special characters in your password?");
         if (!lowerCase && !upperCase && !numbers && !specialCharacters) {
-            alert("None of the options were chosen!")
+            alert("None of the options were chosen")
+            return "None of the options were chosen"
         } else {
             alert("Please see your new password!")
             var validCharacters = []

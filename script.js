@@ -58,6 +58,7 @@ function generatePassword() {
                 cougs += validCharacters[index]
             }
             console.log(cougs)
+            return cougs
         }
     }
 }

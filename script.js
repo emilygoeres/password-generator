@@ -52,6 +52,12 @@ function generatePassword() {
                 validCharacters += specialCharactersAgain
             }
             console.log(validCharacters)
+            var cougs = ""
+            for (let i= 0; i<tenure; i++) {
+                var index=Math.floor(Math.random() * validCharacters.length)
+                cougs += validCharacters[index]
+            }
+            console.log(cougs)
         }
     }
 }

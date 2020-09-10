@@ -39,7 +39,7 @@ function generatePassword() {
             alert("None of the options were chosen")
             return "None of the options were chosen"
         } else {
-            alert("Please see your new password!")
+            alert("CHeck out your new password!")
             var validCharacters = []
             if (lowerCase) {
                 validCharacters += lowerCaseLetters

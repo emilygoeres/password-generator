@@ -25,7 +25,18 @@
 What does this app do?
 This app generates a random password. The password generator goes through a series of yes or no questions and outputs a random password of any length you choose.
 
+Technologies Used:
+Style.css
+JavaScript
+Alerts
+Prompts
+Math.random
+
 Link to Deployed App
 https://emilygoeres.github.io/password-generator/
 
 ![Password Generator](https://github.com/emilygoeres/password-generator/blob/master/password1.png)
+![Password Generator](https://github.com/emilygoeres/password-generator/blob/master/password2.png)
+
+##### Emily Goeres, 
+### Univeristy of Washington

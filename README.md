@@ -21,3 +21,11 @@
     -in the for loop, stated the starting point of the loop, put the length of the loop and said e wanted to always proceed to the next step whether that be go to the next question or say this is an invalid selection
     -next part of the for loop is will make the numbers we use whole numbers
     -Last portion is the retun which will spit out a new password once all questions are answered
+
+What does this app do?
+This app generates a random password. The password generator goes through a series of yes or no questions and outputs a random password of any length you choose.
+
+Link to Deployed App
+https://emilygoeres.github.io/password-generator/
+
+![Password Generator](https://github.com/emilygoeres/password-generator/blob/master/password1.png)
